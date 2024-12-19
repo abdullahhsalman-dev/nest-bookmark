@@ -97,3 +97,14 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+- nest g module user   to create module folder from app
+- controllers are responsible for handling incoming requests and returning response to client
+- providers are mainly responsible for creating 
+- - basic nest classes are treated as provider.
+- In NestJS, a provider is a class or value that is used to share functionality across the application. Providers are fundamental building blocks in NestJS and typically encapsulate business logic, data access logic, or utility functions. They are managed by the NestJS dependency injection (DI) system, which makes it easy to use services throughout your app without manually creating or managing their instances.
+
+Key Concepts of Providers:
+Dependency Injection: Providers allow services or components to be injected into other parts of your application.
+Reusability: Providers can be reused throughout the application, ensuring consistent logic.
+Encapsulation: Providers encapsulate specific functionality, separating concerns.
