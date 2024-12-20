@@ -108,3 +108,25 @@ Key Concepts of Providers:
 Dependency Injection: Providers allow services or components to be injected into other parts of your application.
 Reusability: Providers can be reused throughout the application, ensuring consistent logic.
 Encapsulation: Providers encapsulate specific functionality, separating concerns.
+
+
+- to add prisma in your application
+- npm install prisma --save-dev
+- npm install @prisma/client
+
+
+- to initialize prisma 
+npx prisma init
+
+
+- to run the database migrations
+
+- npx prisma migrate dev --name init
+
+
+- ** npx prisma studio 
+- it will show the database like thing in the browser
+
+# to create a unified logic to connect to the database.
+nest g module prisma
+nest g service prisma --no-spec
